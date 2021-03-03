@@ -1,7 +1,7 @@
  #ifndef _MATRIX
   #define _MATRIX
   #define ndim 25 
-  #define N_TYPE float
+  #define N_TYPE double
   #define FORMAT_STR "%18.11e "
   #define MATRIX(name) N_TYPE name[ndim][ndim]
   #define VECTOR(name,size) N_TYPE name[size]
